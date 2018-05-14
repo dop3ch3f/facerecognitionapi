@@ -1,0 +1,28 @@
+{
+  "name": "facerecognitionapi",
+  "version": "1.0.0",
+  "description": "The Back End App to manage the Front end application of face recognition",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dop3ch3f/facerecognitionapi.git"
+  },
+  "keywords": [],
+  "author": "dop3ch3f",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dop3ch3f/facerecognitionapi/issues"
+  },
+  "homepage": "https://github.com/dop3ch3f/facerecognitionapi#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3"
+  }
+}
