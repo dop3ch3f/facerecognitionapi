@@ -38,6 +38,6 @@ app.put('/image', entry.handleEntry(knex));
 //Image Link
 app.post('/imageurl', (req, res) => entry.handleApiCall(req, res));
 
-app.listen(3000, () => {
-    console.log("Server live @ port:3000");
+app.listen(process.env.PORT || 3000, () => {
+    console.log(`Server live @ ${process.env.PORT}`);
 })
