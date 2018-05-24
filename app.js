@@ -6,10 +6,8 @@ const bcrypt = require('bcrypt-nodejs');
 const knex = require('knex')({
     client: "pg",
     connection: {
-        host: "127.0.0.1",
-        user: "postgres",
-        password: "root",
-        database: "smart-brain"
+        host: process.env.DATABASE_URL,
+        ssl: true
     }
 });
 //importing controllers
